@@ -1,0 +1,10 @@
+# Path budget: .gitignore <= 512 bytes; see artifacts/submission-budget.md.
+node_modules/
+.npm/
+.cache/
+.vite/
+coverage/
+.playwright-mcp/
+test/scratch/
+*.tsbuildinfo
+# dist/ is intentionally included for static publication.
